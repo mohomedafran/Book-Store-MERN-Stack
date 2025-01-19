@@ -13,7 +13,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [showType, setShowType] = useState('table');
 
-  useEffect(() => {
+  useEffect(() => { 
     setLoading(true);
     axios
       .get('https://book-store-mern-stack-server.up.railway.app/books')
